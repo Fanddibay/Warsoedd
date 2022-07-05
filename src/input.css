@@ -32,7 +32,7 @@
   }
 
   .bg-hero-img {
-    background-image: url("/src/images/jumbotron.png");
+    background-image: url("/images/jumbotron.png");
 
     /* Full height */
     height: 100vh;
