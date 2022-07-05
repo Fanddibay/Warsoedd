@@ -60,8 +60,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        "hero-img": "url('/src/images/jumbotron.png')",
-        "login-img": "url('/src/images/login-img.png')",
+        "hero-img": "url('images/jumbotron.png')",
+        "login-img": "url('images/login-img.png')",
       }),
       colors: {
         yellow: {
