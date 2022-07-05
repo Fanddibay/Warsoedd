@@ -117,3 +117,8 @@ function data() {
 function alertFunction() {
   alert("yakin ingin di hapus?");
 }
+
+// alert function login
+function functionAlret() {
+  alert("lanjutkan login?");
+}
