@@ -21,14 +21,14 @@
     <!-- google icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <!-- output to tailwindcss -->
-    <link rel="stylesheet" href="/src/dist/output.css" />
-    <link rel="stylesheet" href="/src/input.css" />
+    <link rel="stylesheet" href="dist/output.css" />
+    <link rel="stylesheet" href="input.css" />
     <!-- swiper css -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="/src/images/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="/src/images/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <!-- header -->
@@ -41,7 +41,7 @@
       <nav class="p-5 bg-white shadow lg:flex lg:items-center lg:justify-between">
         <div class="flex justify-between items-center">
           <span class="text-2xl font-[Poppins] cursor-pointer">
-            <img class="h-[4rem] inline" src="/src/images/logo.png" />
+            <img class="h-[4rem] inline" src="images/logo.png" />
           </span>
 
           <span class="text-3xl cursor-pointer mx-2 lg:hidden block">
@@ -62,7 +62,7 @@
             <a href="#" class="text-lg hover:text-red-500 duration-500">Menu</a>
           </li>
           <li class="mx-4 my-6 lg:my-0">
-            <a href="#" class="text-lg hover:text-red-500 duration-500">Contact</a>
+            <a href="templates/admin/login.html" class="text-lg hover:text-red-500 duration-500">Contact</a>
           </li>
           <button class="bg-red-500 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded">
             Get started
@@ -95,13 +95,17 @@
       <div class="flex flex-wrap items-center px-12 mx-auto">
         <div class="flex">
           <div class="mt-4 pl-16">
-            <img src="/src/images/logo.png" alt="" class="w-1/6" />
+            <img src="images/logo.png" alt="" class="w-1/6" />
           </div>
           <ul class="flex mt-12 font-bold capitalize text-xl">
             <li><a href="#" class="px-10 hover:text-red-500 hover:underline text-white">home</a></li>
             <li><a href="#" class="px-10 hover:text-red-500 hover:underline text-white">service</a></li>
             <li><a href="#" class="px-10 hover:text-red-500 hover:underline text-white">menu</a></li>
-            <li><a href="#" class="px-10 hover:text-red-500 hover:underline text-white">contact</a></li>
+            <li>
+              <a href="templates/admin/login.html" class="px-10 hover:text-red-500 hover:underline text-white"
+                >contact</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -128,7 +132,7 @@
           </div>
         </div>
         <div class="-z-10 w-1/2 absolute right-0 top-0">
-          <img src="/src/images/jumbotron.png " class="w-full h-full object-cover object-center inset-0" alt="" />
+          <img src="images/jumbotron.png " class="w-full h-full object-cover object-center inset-0" alt="" />
         </div>
       </div>
     </section>
@@ -148,7 +152,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-0 mt-14 place-items-center justify-items-center">
           <div class="text-center px-12">
             <img
-              src="/src/images/mudah.svg"
+              src="images/mudah.svg"
               class="md:mt-0 mt-12 md:w-[90%] rounded-full text-center h-fulll content-center"
               alt=""
             />
@@ -160,7 +164,7 @@
           </div>
           <div class="text-center px-12">
             <img
-              src="/src/images/murah.svg"
+              src="images/murah.svg"
               class="md:mt-0 mt-12 md:w-[90%] rounded-full text-center h-full content-center"
               alt=""
             />
@@ -172,7 +176,7 @@
           </div>
           <div class="text-center px-12">
             <img
-              src="/src/images/hamburger.svg"
+              src="images/hamburger.svg"
               class="md:mt-0 mt-12 md:w-[90%] rounded-full text-center h-fulll content-center"
               alt=""
             />
@@ -184,7 +188,7 @@
           </div>
           <div class="text-center px-12">
             <img
-              src="/src/images/mudah.svg"
+              src="images/mudah.svg"
               class="md:mt-0 mt-12 md:w-[90%] rounded-full text-center h-fulll content-center"
               alt=""
             />
@@ -217,8 +221,8 @@
             <div class="swiper-wrapper">
               <!-- Slides -->
               <div class="swiper-slide">
-                <a href="/src/templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
-                  <img src="/src/images/detail-1.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
+                <a href="templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
+                  <img src="images/detail-1.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
                   <div class="mt-8 px-2">
                     <h5 class="text-base md:text-xl font-bold text-gray-700 text-left" id="nama__umkm">Pabuaran</h5>
                     <h6
@@ -234,8 +238,8 @@
                 </a>
               </div>
               <div class="swiper-slide">
-                <a href="/src/templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
-                  <img src="/src/images/detail-2.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
+                <a href="templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
+                  <img src="images/detail-2.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
                   <div class="mt-8 px-2">
                     <h5 class="text-base md:text-xl font-bold text-gray-700 text-left" id="nama__umkm">Grendeng</h5>
                     <h6
@@ -251,8 +255,8 @@
                 </a>
               </div>
               <div class="swiper-slide">
-                <a href="/src/templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
-                  <img src="/src/images/detail-3.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
+                <a href="templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
+                  <img src="images/detail-3.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
                   <div class="mt-8 px-2">
                     <h5 class="text-base md:text-xl font-bold text-gray-700 text-left z-20" id="nama__umkm">
                       Karangwangkal
@@ -270,8 +274,8 @@
                 </a>
               </div>
               <div class="swiper-slide">
-                <a href="/src/templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
-                  <img src="/src/images/detail-1.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
+                <a href="templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
+                  <img src="images/detail-1.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
                   <div class="mt-8 px-2">
                     <h5 class="text-base md:text-xl font-bold text-gray-700 text-left" id="nama__umkm">
                       Karangwangkal
@@ -292,8 +296,8 @@
                 </a>
               </div>
               <div class="swiper-slide">
-                <a href="/src/templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
-                  <img src="/src/images/detail-2.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
+                <a href="templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
+                  <img src="images/detail-2.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
                   <div class="mt-8 px-2">
                     <h5 class="text-base md:text-xl font-bold text-gray-700 text-left" id="nama__umkm">
                       Karangwangkal
@@ -311,8 +315,8 @@
                 </a>
               </div>
               <div class="swiper-slide">
-                <a href="/src/templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
-                  <img src="/src/images/detail-3.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
+                <a href="templates/detail.html" class="col-span-1 hover:-translate-y-2 transform duration-300">
+                  <img src="images/detail-3.jpg" class="w-[100%] lg:w-[80%]" id="gambar__umkm" alt="" />
                   <div class="mt-8 px-2">
                     <h5 class="text-base md:text-xl font-bold text-gray-700 text-left z-20" id="nama__umkm">
                       Karangwangkal
@@ -346,7 +350,7 @@
             What our customer <br class="hidden md:block" />say about us
           </h3>
           <div class="">
-            <img src="/src/images/jumbotron.png" class="w-full lg:w-[80%] md:h-[70%] lg:h-[100%]" alt="" />
+            <img src="images/jumbotron.png" class="w-full lg:w-[80%] md:h-[70%] lg:h-[100%]" alt="" />
           </div>
           <div class="self-center lg:pr-24">
             <h3 class="lg:block hidden text-3xl font-bold capitalize text-red-500">
@@ -414,7 +418,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <!-- vanilla js -->
-    <script src="/src/js/main.js"></script>
+    <script src="js/main.js"></script>
     <!-- hamburger toggle -->
     <script>
       function Menu(e) {
