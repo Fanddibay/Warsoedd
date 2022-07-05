@@ -30,6 +30,18 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .bg-hero-img {
+    background-image: url("/src/images/jumbotron.png");
+
+    /* Full height */
+    height: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   label {
     cursor: pointer;
   }
